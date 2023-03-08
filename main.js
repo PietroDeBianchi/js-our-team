@@ -32,11 +32,11 @@ const staffMembers = [
     }
 ];
   
-  // Get a reference to the container element
-  const container = document.getElementById("container");
+// Get a reference to the container element
+const container = document.getElementById("container");
   
-  // Loop over the staffMembers array and generate a div for each member
-  for (let i = 0; i < staffMembers.length; i++) {
+// Loop over the staffMembers array and generate a div for each member
+for (let i = 0; i < staffMembers.length; i++) {
     // Create a new div element
     const staffCard = document.createElement("div");
   
