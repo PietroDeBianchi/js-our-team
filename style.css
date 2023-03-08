@@ -10,6 +10,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #3D4043;
 }
 
 /* main container style */
@@ -17,11 +18,13 @@ main {
 h1 {
     margin: 12px 0;
     text-decoration: underline;
+    color: white;
 }
 
 #container {
     width: 80%;
     margin: auto;
+    margin-bottom: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,6 +33,7 @@ h1 {
 .staffCard {
     width: calc(100% / 3 - 12px);
     text-align: center;
+    background-color: white;
     border: 1px solid black;
     padding: 12px 0;
     margin: 6px 0;
@@ -47,4 +51,8 @@ h1 {
 
 .staffCard p{
     font-size: 16px;
+}
+
+p:hover, h4:hover {
+    text-decoration: underline;
 }
