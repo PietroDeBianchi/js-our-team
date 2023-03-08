@@ -4,3 +4,47 @@
     box-sizing: border-box;
     font-family: 'Martian Mono', monospace;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* main container style */
+
+h1 {
+    margin: 12px 0;
+    text-decoration: underline;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.staffCard {
+    width: calc(100% / 3 - 12px);
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px 0;
+    margin: 6px 0;
+}
+
+.staffCard img {
+    width: 80%;
+}
+
+.staffCard h4 {
+    margin-top: 8px;
+    padding: 8px 0;
+    border-top: 1px solid black;
+}
+
+.staffCard p{
+    font-size: 16px;
+}
